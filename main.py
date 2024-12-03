@@ -1,6 +1,6 @@
 import json
 
-with open("C:\\Users\\Dell\\Desktop\\py\\json2\\dump.json", "r", encoding="UTF-8") as file:
+with open("dump.json", "r", encoding="UTF-8") as file:
     data = json.load(file)
 
 n = int(input("Введите номер квалификации: "))
